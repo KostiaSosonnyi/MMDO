@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="875.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Simplex.UView">
+   <children>
+      <Label layoutX="364.0" layoutY="64.0" text="Answer" AnchorPane.leftAnchor="375.0" AnchorPane.topAnchor="64.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="151.0" layoutY="229.0" text="X* = " AnchorPane.leftAnchor="151.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="286.0" layoutY="229.0" text="(X1, X2, X3)" AnchorPane.leftAnchor="286.0" fx:id="x">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="410.0" text="Z(X*) = " AnchorPane.leftAnchor="130.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="opt" layoutX="338.0" layoutY="410.0" text="Zopt" AnchorPane.leftAnchor="338.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutX="377.0" layoutY="542.0" mnemonicParsing="false" text="Back">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
